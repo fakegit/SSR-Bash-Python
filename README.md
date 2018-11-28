@@ -33,6 +33,7 @@ ShadowsocksR多用户管理脚本（基于官方mujson版本）
 `cd /usr/local/ && rm -rf SSR-Bash-Python && git clone https://github.com/rptec/SSR-Bash-Python.git && cp SSR-Bash-Python/ssr /usr/local/bin/ssr`
 
 部分 vps 因为 git版本太低 需要更新，，例如cac等 
+
     sudo yum update nss curl
 ## 安装 ##
     wget -N --no-check-certificate https://raw.githubusercontent.com/rptec/SSR-Bash-Python/master/install.sh && bash install.sh
